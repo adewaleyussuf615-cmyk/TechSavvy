@@ -1,0 +1,3 @@
+import {PageHero,technologies,CTA} from '../shared';
+export const metadata={title:'Technology'};
+export default function Technology(){return <main id="main"><PageHero label="Technology" title="Exploring the Technology of Tomorrow." text="We combine proven technologies with emerging possibilities to create solutions for today's challenges and tomorrow's opportunities."/><section className="section wrap"><div className="tech-grid detailed">{technologies.map(([t,d,Icon],i)=><article className="tech-card" id={'area-'+i} key={t}><Icon size={33} strokeWidth={1.3}/><span className="number">0{i+1}</span><h3>{t==='Software & Digital Platforms'?'Software & Platforms':t}</h3><p>{d}</p></article>)}</div></section><CTA/></main>}

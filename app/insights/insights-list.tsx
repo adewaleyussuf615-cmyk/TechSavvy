@@ -1,0 +1,6 @@
+'use client';
+import {useState} from 'react';
+import {BookOpen} from 'lucide-react';
+import {Empty,EmptyHeader,EmptyMedia,EmptyTitle,EmptyDescription} from '@/components/ui/empty';
+const categories=['All insights','Innovation','Technology Trends','Emerging Technology','Product Development','Digital Transformation','Case Studies','Research','Company News'];
+export default function InsightsList(){const [category,setCategory]=useState('All insights');return <section className="section wrap insights-section"><div className="category-bar" aria-label="Filter insights by category">{categories.map(c=><button key={c} onClick={()=>setCategory(c)} aria-pressed={c===category}>{c}</button>)}</div><div aria-live="polite"><Empty className="editorial-empty"><EmptyHeader><EmptyMedia><BookOpen size={32} strokeWidth={1.3}/></EmptyMedia><EmptyTitle>{category==='All insights'?'Fresh perspectives are on the way.':category+' insights are on the way.'}</EmptyTitle><EmptyDescription>Our articles and updates will appear here when published. Explore our technology areas in the meantime.</EmptyDescription></EmptyHeader><a className="text-link" href="/technology">Explore Technology ↗</a></Empty></div></section>}
