@@ -1,12 +1,12 @@
 {
   "version": "7",
-  "dialect": "sqlite",
+  "dialect": "postgresql",
   "entries": [
     {
       "idx": 0,
-      "version": "6",
-      "when": 1788939997742,
-      "tag": "0000_bizarre_the_renegades",
+      "version": "7",
+      "when": 1789118210031,
+      "tag": "0000_handy_norrin_radd",
       "breakpoints": true
     }
   ]

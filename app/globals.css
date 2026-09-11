@@ -1,6 +1,6 @@
-@import 'tailwindcss';
+@import 'tailwindcss/index.css';
 @import 'tw-animate-css';
-@import 'shadcn/tailwind.css';
+@import '../node_modules/shadcn/dist/tailwind.css';
 @custom-variant dark (&:is(.dark *));
 @theme inline {--color-background:var(--background);--color-foreground:var(--foreground);--color-primary:var(--primary);--color-primary-foreground:var(--primary-foreground);--color-border:var(--border);--color-input:var(--border);--color-ring:var(--primary);--color-popover:var(--background);--color-popover-foreground:var(--foreground);--color-accent:var(--accent);--color-accent-foreground:var(--foreground);--color-muted-foreground:var(--muted-foreground);--font-sans:Arial,Helvetica,sans-serif;--radius-lg:8px;--radius-md:6px;}
 :root{--background:#f8f9f5;--foreground:#19251f;--primary:#c8f16a;--primary-foreground:#19251f;--border:#d9ded4;--accent:#e8efde;--muted-foreground:#596359;--card:#fff;--radius:8px}.dark{--background:#19251f;--foreground:#f8f9f5;--primary:#c8f16a;--primary-foreground:#19251f;--border:#455044;--accent:#334032;--muted-foreground:#c4cdc0;--card:#253128}

@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "vinext build",
-    "start": "wrangler dev --config dist/server/wrangler.json",
+    "build": "vite build",
+    "start": "node .output/server/index.mjs",
     "lint": "oxlint",
     "format": "oxfmt",
     "db:generate": "drizzle-kit generate"
@@ -21,6 +21,7 @@
     "clsx": "2.1.1",
     "cmdk": "1.1.1",
     "date-fns": "4.1.0",
+    "@netlify/neon": "0.1.2",
     "drizzle-orm": "0.45.2",
     "embla-carousel-react": "8.5.2",
     "input-otp": "1.4.2",
@@ -39,8 +40,6 @@
     "vinext": "1.0.0-beta.5"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.37.1",
-    "@cloudflare/workers-types": "4.20260515.1",
     "@openai/sites-vite-plugin": "0.2.0",
     "@tailwindcss/postcss": "4.2.1",
     "@types/node": "22.19.19",
