@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 540" role="img" aria-label="TechSavvy Ideas logo">
+  <defs>
+    <linearGradient id="techsavvyBlue" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#0e8cc7"/>
+      <stop offset="100%" stop-color="#1eb7e5"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0 2)">
+    <g>
+      <path d="M120 8 L515 8 L310 530 L0 530 Z" fill="url(#techsavvyBlue)"/>
+
+      <g fill="#f3f6f1" opacity="0.96">
+        <path d="M58 8 L170 8 L62 530 L-48 530 Z"/>
+        <path d="M145 8 L258 8 L150 530 L38 530 Z"/>
+        <path d="M233 8 L345 8 L239 530 L127 530 Z"/>
+        <path d="M320 8 L433 8 L327 530 L214 530 Z"/>
+      </g>
+
+      <g fill="#c4e978" opacity="0.96">
+        <path d="M95 8 L212 8 L104 530 L-12 530 Z"/>
+        <path d="M183 8 L300 8 L192 530 L76 530 Z"/>
+        <path d="M271 8 L388 8 L280 530 L164 530 Z"/>
+      </g>
+    </g>
+
+    <text x="528" y="355" fill="#0d9ed6" font-family="Arial, Helvetica, sans-serif" font-size="392" font-weight="700" letter-spacing="-24">TechSavvy</text>
+  </g>
+</svg>
